@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32825.248
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ML.Restart", "ML.Restart", "{A793598F-7DA0-4232-883D-0B6587346217}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Restart", "Restart\Restart.csproj", "{755CEB57-C832-4EB3-9AA2-F2A39E63FD7A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ML.Binding", "ML.Binding", "{A44CDB55-AC1B-490F-A00A-0145F2D4686F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ML.Markup", "ML.Markup", "{F56DA86F-2ACD-4E5A-9DE3-236B5436B6AE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ML.Core", "ML.Core\ML.Core.csproj", "{2571DF67-932D-4EE6-9C78-001E3E07D784}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BindingApp", "BindingApp\BindingApp.csproj", "{34D6D7D2-21D4-4691-A2A6-42D80C5451A7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrismModule", "PrismModule\PrismModule.csproj", "{3F48D255-5C46-4A13-BDF2-27DD20C32FFF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarkupApp", "MarkupApp\MarkupApp.csproj", "{C8358919-5EA3-4D99-B6CB-82146E73EB7B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{755CEB57-C832-4EB3-9AA2-F2A39E63FD7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{755CEB57-C832-4EB3-9AA2-F2A39E63FD7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{755CEB57-C832-4EB3-9AA2-F2A39E63FD7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{755CEB57-C832-4EB3-9AA2-F2A39E63FD7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2571DF67-932D-4EE6-9C78-001E3E07D784}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2571DF67-932D-4EE6-9C78-001E3E07D784}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2571DF67-932D-4EE6-9C78-001E3E07D784}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2571DF67-932D-4EE6-9C78-001E3E07D784}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34D6D7D2-21D4-4691-A2A6-42D80C5451A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34D6D7D2-21D4-4691-A2A6-42D80C5451A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34D6D7D2-21D4-4691-A2A6-42D80C5451A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34D6D7D2-21D4-4691-A2A6-42D80C5451A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F48D255-5C46-4A13-BDF2-27DD20C32FFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F48D255-5C46-4A13-BDF2-27DD20C32FFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F48D255-5C46-4A13-BDF2-27DD20C32FFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F48D255-5C46-4A13-BDF2-27DD20C32FFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8358919-5EA3-4D99-B6CB-82146E73EB7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8358919-5EA3-4D99-B6CB-82146E73EB7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8358919-5EA3-4D99-B6CB-82146E73EB7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8358919-5EA3-4D99-B6CB-82146E73EB7B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{755CEB57-C832-4EB3-9AA2-F2A39E63FD7A} = {A793598F-7DA0-4232-883D-0B6587346217}
+		{34D6D7D2-21D4-4691-A2A6-42D80C5451A7} = {A44CDB55-AC1B-490F-A00A-0145F2D4686F}
+		{C8358919-5EA3-4D99-B6CB-82146E73EB7B} = {F56DA86F-2ACD-4E5A-9DE3-236B5436B6AE}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {01AEF75E-85D0-468A-80A9-CADFC0DF56DE}
+		RESX_NeutralResourcesLanguage = zh-CN
+		RESX_PrefixTranslations = False
+	EndGlobalSection
+EndGlobal

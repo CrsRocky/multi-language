@@ -1,0 +1,41 @@
+﻿<Window
+    x:Class="Restart.Views.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:prism="http://prismlibrary.com/"
+    xmlns:props="clr-namespace:Restart.Properties"
+    Title="{Binding Title}"
+    Width="525"
+    Height="350"
+    prism:ViewModelLocator.AutoWireViewModel="True">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+        </Grid.RowDefinitions>
+        <ContentControl prism:RegionManager.RegionName="ContentRegion" />
+        <StackPanel Grid.Row="1">
+            <Button
+                Width="100"
+                Height="23"
+                Margin="5"
+                Content="{x:Static props:Resources.Star}" />
+            <Button
+                Width="100"
+                Height="23"
+                Margin="5"
+                Content="{x:Static props:Resources.Pause}" />
+            <Button
+                Width="100"
+                Height="23"
+                Margin="5"
+                Content="{x:Static props:Resources.Stop}" />
+            <Button
+                Width="100"
+                Height="23"
+                Margin="5"
+                Command="{Binding LanguageChangeCommand}"
+                Content="{x:Static props:Resources.Switch}" />
+        </StackPanel>
+    </Grid>
+</Window>
